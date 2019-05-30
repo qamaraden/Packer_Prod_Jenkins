@@ -1,0 +1,108 @@
+2019/05/29 21:25:33 [INFO] Packer version: 1.3.1
+2019/05/29 21:25:33 Packer Target OS/Arch: darwin amd64
+2019/05/29 21:25:33 Built with Go Version: go1.11
+2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 Using internal plugin for amazon-ebs
+2019/05/29 21:25:33 Using internal plugin for hyperv-iso
+2019/05/29 21:25:33 Using internal plugin for ncloud
+2019/05/29 21:25:33 Using internal plugin for virtualbox-iso
+2019/05/29 21:25:33 Using internal plugin for hyperv-vmcx
+2019/05/29 21:25:33 Using internal plugin for openstack
+2019/05/29 21:25:33 Using internal plugin for oracle-oci
+2019/05/29 21:25:33 Using internal plugin for amazon-instance
+2019/05/29 21:25:33 Using internal plugin for googlecompute
+2019/05/29 21:25:33 Using internal plugin for oneandone
+2019/05/29 21:25:33 Using internal plugin for profitbricks
+2019/05/29 21:25:33 Using internal plugin for oracle-classic
+2019/05/29 21:25:33 Using internal plugin for parallels-iso
+2019/05/29 21:25:33 Using internal plugin for triton
+2019/05/29 21:25:33 Using internal plugin for amazon-chroot
+2019/05/29 21:25:33 Using internal plugin for azure-arm
+2019/05/29 21:25:33 Using internal plugin for cloudstack
+2019/05/29 21:25:33 Using internal plugin for docker
+2019/05/29 21:25:33 Using internal plugin for file
+2019/05/29 21:25:33 Using internal plugin for alicloud-ecs
+2019/05/29 21:25:33 Using internal plugin for amazon-ebsvolume
+2019/05/29 21:25:33 Using internal plugin for digitalocean
+2019/05/29 21:25:33 Using internal plugin for lxc
+2019/05/29 21:25:33 Using internal plugin for qemu
+2019/05/29 21:25:33 Using internal plugin for amazon-ebssurrogate
+2019/05/29 21:25:33 Using internal plugin for lxd
+2019/05/29 21:25:33 Using internal plugin for scaleway
+2019/05/29 21:25:33 Using internal plugin for virtualbox-ovf
+2019/05/29 21:25:33 Using internal plugin for vmware-iso
+2019/05/29 21:25:33 Using internal plugin for null
+2019/05/29 21:25:33 Using internal plugin for parallels-pvm
+2019/05/29 21:25:33 Using internal plugin for vmware-vmx
+2019/05/29 21:25:33 Using internal plugin for ansible
+2019/05/29 21:25:33 Using internal plugin for chef-solo
+2019/05/29 21:25:33 Using internal plugin for puppet-masterless
+2019/05/29 21:25:33 Using internal plugin for salt-masterless
+2019/05/29 21:25:33 Using internal plugin for shell
+2019/05/29 21:25:33 Using internal plugin for shell-local
+2019/05/29 21:25:33 Using internal plugin for windows-restart
+2019/05/29 21:25:33 Using internal plugin for windows-shell
+2019/05/29 21:25:33 Using internal plugin for chef-client
+2019/05/29 21:25:33 Using internal plugin for file
+2019/05/29 21:25:33 Using internal plugin for powershell
+2019/05/29 21:25:33 Using internal plugin for ansible-local
+2019/05/29 21:25:33 Using internal plugin for converge
+2019/05/29 21:25:33 Using internal plugin for puppet-server
+2019/05/29 21:25:33 Using internal plugin for shell-local
+2019/05/29 21:25:33 Using internal plugin for vsphere-template
+2019/05/29 21:25:33 Using internal plugin for artifice
+2019/05/29 21:25:33 Using internal plugin for docker-import
+2019/05/29 21:25:33 Using internal plugin for docker-push
+2019/05/29 21:25:33 Using internal plugin for manifest
+2019/05/29 21:25:33 Using internal plugin for docker-tag
+2019/05/29 21:25:33 Using internal plugin for googlecompute-export
+2019/05/29 21:25:33 Using internal plugin for vagrant
+2019/05/29 21:25:33 Using internal plugin for alicloud-import
+2019/05/29 21:25:33 Using internal plugin for docker-save
+2019/05/29 21:25:33 Using internal plugin for compress
+2019/05/29 21:25:33 Using internal plugin for googlecompute-import
+2019/05/29 21:25:33 Using internal plugin for vagrant-cloud
+2019/05/29 21:25:33 Using internal plugin for vsphere
+2019/05/29 21:25:33 Using internal plugin for amazon-import
+2019/05/29 21:25:33 Using internal plugin for checksum
+2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 Attempting to open config file: /Users/tech-a29-clean/.packerconfig
+2019/05/29 21:25:33 [WARN] Config file doesn't exist: /Users/tech-a29-clean/.packerconfig
+2019/05/29 21:25:33 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[googlecompute:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-googlecompute docker:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-docker hyperv-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-iso amazon-ebsvolume:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebsvolume lxc:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxc qemu:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-qemu virtualbox-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso virtualbox-ovf:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-ovf parallels-pvm:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-pvm amazon-ebs:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebs parallels-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-iso amazon-chroot:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-chroot lxd:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxd openstack:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-openstack oracle-classic:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-classic triton:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-triton azure-arm:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-azure-arm vmware-iso:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-iso vmware-vmx:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-vmx oneandone:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oneandone oracle-oci:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-oci amazon-ebssurrogate:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebssurrogate scaleway:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-scaleway hyperv-vmcx:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-vmcx alicloud-ecs:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-alicloud-ecs null:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-null ncloud:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-ncloud profitbricks:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-profitbricks cloudstack:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-cloudstack file:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-file digitalocean:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-digitalocean amazon-instance:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-instance] PostProcessors:map[vagrant-cloud:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant-cloud vsphere-template:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere-template vagrant:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant googlecompute-export:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-export alicloud-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-alicloud-import docker-save:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-save vsphere:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere artifice:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-artifice manifest:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-manifest docker-push:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-push docker-tag:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-tag compress:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-compress googlecompute-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-import amazon-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-amazon-import checksum:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-checksum shell-local:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-shell-local docker-import:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-import] Provisioners:map[file:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-file powershell:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell puppet-server:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-server salt-masterless:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-salt-masterless shell:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell shell-local:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell-local ansible-local:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible-local converge:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-converge ansible:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible chef-solo:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-solo puppet-masterless:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-masterless windows-restart:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart windows-shell:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell chef-client:/usr/local/bin/packer-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-client]}
+2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 Setting cache directory: /Users/tech-a29-clean/Downloads/Week10/Parker_Dev_Production copy/Web_Dev_Cookbook/packer_cache
+2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 Loading builder: amazon-ebs
+2019/05/29 21:25:33 Plugin could not be found. Checking same directory as executable.
+2019/05/29 21:25:33 Current exe path: /usr/local/bin/packer
+2019/05/29 21:25:33 Creating plugin client for path: /usr/local/bin/packer
+2019/05/29 21:25:33 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-builder-amazon-ebs"}
+2019/05/29 21:25:33 Waiting for RPC address for: /usr/local/bin/packer
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 [INFO] Packer version: 1.3.1
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Packer Target OS/Arch: darwin amd64
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Built with Go Version: go1.11
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Attempting to open config file: /Users/tech-a29-clean/.packerconfig
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 [WARN] Config file doesn't exist: /Users/tech-a29-clean/.packerconfig
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Setting cache directory: /Users/tech-a29-clean/Downloads/Week10/Parker_Dev_Production copy/Web_Dev_Cookbook/packer_cache
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Detected home directory from env var: /Users/tech-a29-clean
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 args: []string{"packer-builder-amazon-ebs"}
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Plugin minimum port: 10000
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Plugin maximum port: 25000
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Plugin address: unix /var/folders/bm/2wbqctj9491g4stdgz3t506h0000gn/T/packer-plugin720054954
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Waiting for connection...
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Serving a plugin connection...
+2019/05/29 21:25:33 ui: [1;32mamazon-ebs output will be in this color.[0m
+2019/05/29 21:25:33 ui: 
+2019/05/29 21:25:33 Build debug mode: false
+2019/05/29 21:25:33 Force build: false
+2019/05/29 21:25:33 On error: 
+2019/05/29 21:25:33 Preparing build: amazon-ebs
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 {{amazon-ebs amazon-ebs false false  map[aws_secret_key:q9QmUsE+274dR/ApTrwAKneNkvcrII9NhJ0w1vgA aws_access_key:AKIAR7JPX6TNMKUCFJWH] []} {  false   eu-west-1  false false  <nil>} {example-node-app-qamar-1559161533   [] [] [] [] false map[] false false false false false  map[] map[] [] []} {{[]} {[]}} {true  0 false false false  stop t2.micro map[]  [] ami-08660f1c6fb6b01e7 {map[0xc00033cd00:0xc00033cd20 0xc00033cd40:0xc00033cd60 0xc00033cd80:0xc00033cda0] [0xc00033ce20] true}   map[] subnet-02c373cfd5b9b6629  0.0.0.0/0   vpc-04b8a0ed2f295e0ba 20m0s {ssh  22 root  [] []  packer_5ceeeabd-c8a2-eea3-b46a-f44d40d3a2f2 false    false 16m40s false false 10  0 false    scp  0   5s 0s    0 0s false false false <nil>}} map[] {<nil> map[clean_ami_name:0x1945920] map[aws_access_key:AKIAR7JPX6TNMKUCFJWH aws_secret_key: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] [] false amazon-ebs amazon-ebs /Users/tech-a29-clean/Downloads/Week10/Parker_Dev_Production copy/Web_Dev_Cookbook/packer.json}}
+2019/05/29 21:25:33 Waiting on builds to complete...
+2019/05/29 21:25:33 Starting build run: amazon-ebs
+2019/05/29 21:25:33 Running builder: amazon-ebs
+2019/05/29 21:25:33 [INFO] (telemetry) Starting builder amazon-ebs
+2019/05/29 21:25:33 packer: 2019/05/29 21:25:33 Found region eu-west-1
